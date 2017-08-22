@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- CSS stylings -->
+  <link rel="stylesheet" type="text/css" href="css/custom.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/propeller.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">    
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  <link href="components/button/css/button.css" type="text/css" rel="stylesheet" />
+  <link href="components/floating-action-button/css/floating-action-button.css" type="text/css" rel="stylesheet" />
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+  <!-- Javascript Files -->
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/propeller.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
+  <title></title>
+</head>
+
+<body>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
+  <div class="menu pmd-floating-action" role="navigation">
+    <a href="mailto:agarwal.gaurav2704@gmail.com?Subject=Hello%20again" class="pmd-floating-action-btn btn btn-sm pmd-btn-fab pmd-btn-raised pmd-ripple-effect btn-default" data-title="Email">       
+<span class="pmd-floating-hidden">Mail</span>
+<i class="material-icons">mail</i>
+</a>
+    <a data-target="#call-icon" data-toggle="modal" href="javascript:void(0);" class="pmd-floating-action-btn btn btn-sm pmd-btn-fab pmd-btn-raised pmd-ripple-effect btn-default" data-title="call">
+<span class="pmd-floating-hidden">call</span>
+<i class="material-icons">call</i>
+</a>
+    <a href="javascript:void(0);" class="pmd-floating-action-btn btn pmd-btn-fab pmd-btn-raised pmd-ripple-effect btn-primary" data-title="Add">
+<span class="pmd-floating-hidden">Primary</span>
+<i class="material-icons pmd-sm">call</i>
+</a>
+  </div>
+  <div tabindex="-1" class="modal fade" id="call-icon" style="display: none;" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <i class="fa fa-whatsapp fa-3" style="font-size: 2em" aria-hidden="true"></i>
+          <span style="text-align: center; font-size: 2em; margin-left: 12px;"> +91 8652 375 872</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="cover-header">
+    <span class="my-name">Gaurav Agarwal</span>
+    <br>
+    <span class="my-profile">Engineer | Developer | Designer </span>
+    <div class="cover-img">
+<img src="images/Gaurav.jpeg" class="profile-img img-responsive">
+</div>
+  </div>
+  <br>
+  <hr class="style-two">
+  <br>
+  <div class="work-experience">
+    <h2 class="heading"> WORK EXPERIENCE</h2>
+    <ul class="timeline">
+      <!-- Item 1 -->
+      <li>
+        <div class="direction-r">
+          <div class="flag-wrapper">
+            <span class="flag">Persistent Systems</span>
+            <span class="time-wrapper"><span class="time">2016 - Present</span></span>
+          </div>
+          <div class="timeline-gap">
+            <ul>
+              <li>Working in UI team of Genwi Project, Mobile Content Engagement Platform / MCMS Platform for businesses. Currently migrating certain applications on Genwi platform with certain UI changes.</li>
+              <strong>Tools and tech : </strong>
+              <span>Genwi platform, jQuery, HandleBar.js, Swagger (for API), HTML5, CSS3</span>
+              <br>
+              <li>Worked on UI of IBM Text IoT project - Fleet Management System, wherein the vendor leverages the IoT platform to keep track of its fleet (trucks) in real-time on map and also keep track of different parameters in vehicle like temperature, humidity, speed of truck, etc.</li>
+              <strong>Tools and tech : </strong>
+              <span>AngularJS, Google Maps API, Highcharts.js, Sublime Text editor</span>
+            </ul>
+          </div>
+        </div>
+      </li>
+      <!-- Item 2 -->
+      <li>
+        <div class="direction-l">
+          <div class="flag-wrapper">
+            <span class="flag">Nexgear Technology Pvt. Ltd.</span>
+            <span class="time-wrapper"><span class="time">2015</span></span>
+          </div>
+          <div class="timeline-gap">
+            Worked as a Front-end developer, enhancing their official website and designing campaign pages.
+          </div>
+        </div>
+      </li>
+      <!-- Item 3 -->
+      <li>
+        <div class="direction-r">
+          <div class="flag-wrapper">
+            <span class="flag">High On Designs</span>
+            <span class="time-wrapper"><span class="time">2014</span></span>
+          </div>
+          <div class="timeline-gap">
+            Worked as a Website co-developer developing their official website.
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="projects pmd-z-depth-5 row whats-new-panel section-padding get-class active">
+    <div class="container">
+      <div class="row">
+        <h2 class="heading project-heading">PROJECTS</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 project-card">
+          <div class="pmd-card pmd-card-default pmd-z-depth" style="margin-left: 10px;margin-right: 10px;">
+            <!-- Card header -->
+            <div class="pmd-card-title">
+              <div class="media-body media-middle">
+                <h3 class="pmd-card-title-text">Electri-Fi </h3>
+                <span class="pmd-card-subtitle-text">IoT project for home automation (Final Year Project)</span>
+              </div>
+            </div>
+            <!-- Card media -->
+            <!-- Card body -->
+            <div class="pmd-card-body">
+              A subset of home automation system. User may control an electrical socket’s functioning remotely with the help of mobile using IoT (Internet of Things).
+            </div>
+            <!-- Card actions -->
+            <div class="pmd-card-actions">
+              <button data-target="#proj-1" data-toggle="modal" type="button" class="btn  btn-info pmd-ripple-effect btn-default">More..</button>
+              <div tabindex="-1" class="modal fade" id="proj-1" style="display: none;" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
+                      <div class="media-body media-middle">
+                        <h3 class="pmd-card-title-text">Electri-Fi</h3>
+                        <span class="pmd-card-subtitle-text">An IOT based home automation system</span> </div>
+                    </div>
+                    <div class="modal-body"> This is a subset of home automation system that uses low cost device RaspberryPI as a system. A user may control an electrical socket’s functioning remotely with the help of mobile using IoT (Internet Of Things). A virtual connection is established between them. One end acts as server whereas user end acts as a client. It deals with real life problem statement and supports conservation of electricity.
+                      <br> Got to learn how internet of things actually works and using raspberry pi as well.</div>
+                    <div class="pmd-modal-action">
+                      <button data-dismiss="modal" type="button" class="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect btn-primary"> <i class="material-icons pmd-sm">share</i> </button>
+                      <button data-dismiss="modal" type="button" class="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect btn-primary"> <i class="material-icons pmd-sm">thumb_up</i> </button>
+                      <button data-dismiss="modal" type="button" class="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect btn-primary"> <i class="material-icons pmd-sm">drafts</i> </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 project-card">
+          <div class="pmd-card pmd-card-default pmd-z-depth" style="margin-left: 10px; margin-right: 10px;">
+            <!-- Card header -->
+            <div class="pmd-card-title">
+              <div class="media-body media-middle">
+                <h3 class="pmd-card-title-text">Lecture-Monitoring attendance system</h3>
+                <span class="pmd-card-subtitle-text">Automating attendance for teaching staff</span>
+              </div>
+            </div>
+            <!-- Card media -->
+            <!-- Card body -->
+            <div class="pmd-card-body">
+              A web application which aimed at automating the system for professors to mark their attendance after the lecture.
+            </div>
+            <!-- Card actions -->
+            <div class="pmd-card-actions">
+              <button data-target="#proj-2" data-toggle="modal" type="button" class="btn  btn-info pmd-ripple-effect btn-default">More..</button>
+              <div tabindex="-1" class="modal fade" id="proj-2" style="display: none;" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
+                      <div class="media-body media-middle">
+                        <h3 class="pmd-card-title-text">Lecture-Monitoring</h3>
+                        <span class="pmd-card-subtitle-text">Automating attendance</span> </div>
+                    </div>
+                    <div class="modal-body"> A web application which aimed at automating the system for professors to mark their attendance after the lecture and no. of students present in that particular lecture. This helped for higher authority to maintain the attendance of the professors daily in automated way. It reduced paper work and maintenance of the same. </div>
+                    <div class="pmd-modal-action">
+                      <button data-dismiss="modal" type="button" class="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect btn-primary"> <i class="material-icons pmd-sm">share</i> </button>
+                      <button data-dismiss="modal" type="button" class="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect btn-primary"> <i class="material-icons pmd-sm">thumb_up</i> </button>
+                      <button data-dismiss="modal" type="button" class="btn btn-sm pmd-btn-fab pmd-btn-flat pmd-ripple-effect btn-primary"> <i class="material-icons pmd-sm">drafts</i> </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="skills">
+    <div class="container">
+      <div class="row">
+        <h2 class="heading">SKILLS</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-sm-6 col-xs-12">
+          <canvas id="myChart1" width="400" height="400" style="display: block; width: 400px;height: 400px">
+          </canvas>
+        </div>
+        <div class="col-md-6 col-sm-6 col-xs-12 tools-icon-main">
+          <div class="col-md-6 col-sm-6 col-xs-6 tools-icon">
+            <img class="tools-class" src="images/git.png" width="150" height="150">
+          </div>
+          <div class="col-md-6 col-sm-6 col-xs-6 tools-icon">
+            <img class="tools-class" src="images/GitHub.png" width="150" height="150">
+          </div>
+          <div class="col-md-6 col-sm-6 col-xs-6 tools-icon">
+            <img class="tools-class" src="images/sublime.png" width="150" height="150">
+          </div>
+          <div class="col-md-6 col-sm-6 col-xs-6 tools-icon">
+            <img class="tools-class" src="images/npm.png" width="150" height="150">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="education">
+    <h2 class="heading education-heading">EDUCATION</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-sm-12 col-xs-12">
+          <address>
+            <strong style="font-family: Roboto Slab; font-size: 2.60em; font-weight: 100">Bachelors in Computer Science</strong>
+            <br>
+            <span style="font-size: 1.5em; font-family:Raleway">Saraswati College of Engineering, Kharghar</span>
+            <br>
+            <span style="font-size: 1.5em; font-family:Raleway">Mumbai University</span>
+            <br>
+          </address>
+        </div>
+        <div class="col-md-6 col-sm-12 col-xs-12">
+          <address class="">
+            <strong style="font-family: Roboto Slab; font-size: 2.60em; font-weight: 100">Higher Secondary School</strong>
+            <br>
+            <span style="font-size: 1.5em; font-family:Raleway">Rizvi College, Bandra</span>
+            <br>
+            <span style="font-size: 1.5em; font-family:Raleway">Mumbai University</span>
+            <br>
+          </address>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="personal-info">
+    <h2 class="heading">PERSONAL INFO</h2>
+    <div class="container">
+      <h2 class="short-bio">
+I am an engineer blended perfectly with a designer. Elegant and minimalist designs makes me feel good. I have an eye for pixel-perfect designs. As a technology enthusiast, I love to keep updated myself through tech-blogs. I love to click pictures.
+</h2>
+      <h1 class="hobby-title">Hobbies</h1>
+      <div class="row" style="margin-bottom: 75px;">
+        <div class="hobbies" style="text-align: center;">
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6" style="text-align: center;">
+            <img class="img-responsive hobby-image" src="images/camera.png" width="150px" height="150px">
+            <figcaption class="hobby-caption">Photogrpahy</figcaption>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6"><img class="img-responsive hobby-image" src="images/paint-palette.png" width="150px" height="150px">
+            <figcaption class="hobby-caption">Painitng</figcaption>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6"><img class="img-responsive hobby-image" src="images/video-play.png" width="150px" height="150px">
+            <figcaption class="hobby-caption">Movies</figcaption>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6"><img class="img-responsive hobby-image" src="images/climb.png" width="150px" height="150px">
+            <figcaption class="hobby-caption">Hiking</figcaption>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div></div>
+  </div>
+  <div class="footer">
+    <button data-target="#hire-form" data-toggle="modal" class="btn btn-lg pmd-z-depth-3 pmd-ripple-effect hire-button" type="button">Lets Talk</button>
+    <div tabindex="-1" class="modal fade" id="hire-form" style="display: none;" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header pmd-modal-bordered">
+            <button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
+            <h2 class="pmd-card-title-text">Lets Talk</h2>
+          </div>
+          <div class="modal-body">
+            <form class="form-horizontal">
+              <div class="form-group pmd-textfield pmd-textfield-floating-label">
+                <label for="first-name">Name</label>
+                <input type="text" class="mat-input form-control" id="name" value="" required>
+                <span class="help-text">Input is required!</span> </div>
+              <div class="form-group pmd-textfield pmd-textfield-floating-label">
+                <label for="first-name">Email Address</label>
+                <input type="text" class="mat-input form-control" id="email" value="" required>
+              </div>
+              <div class="form-group pmd-textfield pmd-textfield-floating-label">
+                <label for="first-name">Mobile No.</label>
+                <input type="text" class="mat-input form-control" id="mobil" value="">
+              </div>
+              <div class="form-group pmd-textfield pmd-textfield-floating-label">
+                <label class="control-label">Message</label>
+                <textarea required class="form-control" required></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="pmd-modal-action">
+            <button data-dismiss="modal" class="btn pmd-ripple-effect btn-primary" type="button">Send</button>
+            <button data-dismiss="modal" class="btn pmd-ripple-effect btn-default" type="button">Discard</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="social-links">
+        <a class="social-icons" target="blank" href="https://www.linkedin.com/in/gauravagarwal2704/">
+<span class="linkedin"><i class="fa fa-linkedin fa-2" aria-hidden="true"></i></span>
+</a>
+        <a class="social-icons" target="blank" href="https://angel.co/gaurav-agarwal-15">
+<span class="angellist"><i class="fa fa-angellist fa-2" aria-hidden="true"></i></span>
+</a>
+        <a class="social-icons" target="blank" href="https://twitter.com/gaurav_2704">
+<span class="twitter"><i class="fa fa-twitter fa-2" aria-hidden="true"></i></span>
+</a>
+        <a class="social-icons" target="blank" href="https://www.facebook.com/gauravagarwal2704">
+<span class="fb"><i class="fa fa-facebook fa-2" aria-hidden="true"></i></span>
+</a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="contact-me">
+      </div>
+    </div>
+  </div>
+  <script>
+  var ctx1 = document.getElementById("myChart1");
+  var ctx2 = document.getElementById("myChart2");
+
+  var myDoughnutChart1 = new Chart(ctx1, {
+    "type": "doughnut",
+    "data": {
+      "labels": [
+        "HTML5",
+        "CSS3",
+        "JAVA",
+        "AngularJS",
+        "Bootstrap",
+        "JS",
+        "jQuery"
+      ],
+      "datasets": [{
+        "label": "My First Dataset",
+        "data": [
+          8.5,
+          8.5,
+          8,
+          6,
+          6,
+          7,
+          8
+        ],
+        "backgroundColor": [
+          "#673AB7",
+          "#E91E63",
+          "#039BE5",
+          "#64DD17",
+          "#FF3D00",
+          "#795548",
+          "#4DB6AC"
+        ]
+      }]
+    }
+  });
+  </script>
+</body>
+
+</html>
